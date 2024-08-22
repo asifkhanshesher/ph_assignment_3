@@ -2,45 +2,127 @@
 <html lang="en" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment_3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment_3</title>
 
-    <!-- daisy_UI CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- daisy_UI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- custom tailwind css -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        'btn_primary': '#E76F51',
+  <!-- custom tailwind css -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn_primary': '#E76F51',
 
-                    }
-                }
-            }
+          }
         }
-    </script>
+      }
+    }
+  </script>
 
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <!-- css style sheet -->
-    <style>
-        .manrope_font{
-            font-family: "Manrope", sans-serif;
-           
-        }
-    </style>
+  <!-- css style sheet -->
+  <style>
+    .manrope_font {
+      font-family: "Manrope", sans-serif;
+
+    }
+  </style>
 </head>
 
 <body class="manrope_font">
-    <h1>asif</h1>
+
+  <!-- header start -->
+  <header class="my-5 mx-5">
+        <nav class="md:container mx-auto">
+            <div class="navbar items-center">
+                <div class="navbar-start">
+                  <a class="flex items-center gap-3 font-black text-4xl">
+                    <i class="size-6 bg-[#ABEF5F] rounded-full w-8 h-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                      viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 m-[5px]">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg></i>
+                    Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal ">
+                    <li><a class="font-black">Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+
+
+                
+                
+                <div class="navbar-end gap-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:hidden  border rounded-full p-[10px] w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+                  <div class="hidden lg:block lg:flex gap-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border p-[5px] w-10 h-10 rounded-full bg-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+  
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border p-[5px] w-10 h-10 rounded-full bg-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                  </div>
+                  
+                  
+                  <div class="border rounded-full py-2 px-5 bg-[#ABEF5F] font-black hidden lg:block lg:flex items-center gap-3">
+                    <a class=" border-none bg-none ">Booked Consult</a>
+                  <i class="size-6 bg-black text-white rounded-full w-8 h-8"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 m-[4px]">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg></i> 
+                  </div>
+
+                  
+                </div>
+
+                
+            </div>
+        </nav>
+    </header>
+
+
+  
+
+
+  <!-- header end -->
+
+  <!-- main start -->
+  <main>
+
+  </main>
+  <!-- main end -->
+
+
+  <!-- footer start -->
+  <footer>
+
+  </footer>
+  <!-- footer end -->
+
+
+
+
+
+
+
 </body>
 
 </html>
